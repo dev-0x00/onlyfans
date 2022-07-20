@@ -86,7 +86,7 @@ def get_chromedriver(use_proxy=False, user_agent=None):
     #option.add_argument('user-data-dir=/home/dev/personalProjects/upwork/jerry/tmp')
     #option.add_argument("profile-directory=profile")
     option.add_argument("--proxy-server=http://66.42.95.53:20417")
-    #option.add_argument("--headless") 
+    option.add_argument("--headless") 
     driver = webdriver.Chrome(service=service, options=option)
     driver.maximize_window()
     return driver
