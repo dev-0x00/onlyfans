@@ -105,7 +105,7 @@ class Onlyfans():
 def main():
     holder = queue.Queue()
     fans = Onlyfans()
-    fans.Login("Loridaaof@gmail.com", "Asperin1133")
+    fans.Login("", "")
     fans.LoadUsers()
     with open("fans.txt", "r") as fi:
         for user in fi.readlines():
